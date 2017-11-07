@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project
+# Unscented Kalman Filter
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 ## Overview
@@ -11,17 +11,20 @@ In this project I use a Kalman Filter to estimate the state of a moving object o
 * make >= 4.1 
 * gcc/g++ >= 5.4
 
-[This](https://github.com/udacity/CarND-Extended-Kalman-Filter-Project) repository contains all instructions for the Project.
+[This](https://github.com/udacity/CarND-Unscented-Kalman-Filter-Project) repository contains all instructions for the Project.
 
 This project involves the Udacity's Term 2 Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
+
+This repository includes two files that can be used to set up and intall uWebSocketIO for either Linux or Mac systems.
+Once the install for uWebSocketIO is complete, the main program can be built and ran.
 
 ## Build Instructions
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make` 
-4. Run it: `./ExtendedKF`
+4. Run it: `./UnscentedKF`
 
 ## Results
 
-<img src="ekf_result.png" width="800px">
+<img src="out_images/ukf_result.png" width="700px">
