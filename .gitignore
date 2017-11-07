@@ -1,0 +1,8 @@
+# silly macOS
+.DS_Store
+
+# VS Code files
+.vscode/
+
+# build files
+build/
